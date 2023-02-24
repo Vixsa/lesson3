@@ -1,0 +1,14 @@
+﻿Console.Write("Введите номер x1 = ");
+int x1 = int.Parse(Console.ReadLine());
+Console.Write("Введите номер y1 =");
+double y1 = double.Parse(Console.ReadLine());
+Console.Write("Введите номер z1 =");
+double z1 = double.Parse(Console.ReadLine());
+Console.Write("Введите номер x2 =");
+double x2 = double.Parse(Console.ReadLine());
+Console.Write("Введите номер y2 =");
+double y2 = double.Parse(Console.ReadLine());
+Console.Write("Введите номер z2 =");
+double z2 = double.Parse(Console.ReadLine());
+double distance = Math.Sqrt(Math.Pow(x1-x2, 2) + Math.Pow(y1-y2,2)+ Math.Pow(z1-z2,2));
+Console.WriteLine ($"{distance:f2}");
